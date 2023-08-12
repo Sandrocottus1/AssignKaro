@@ -1,0 +1,83 @@
+#file::-webkit-file-upload-button{
+    visibility: hidden;
+}
+#file {
+    width: 90%;
+    height:70px;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 17px;
+    margin-left: 20px;
+    border: 1px solid black;
+    letter-spacing: 2px;
+    border-radius: 5px;
+    background-color: orange;
+    color: white;
+    transition: .5s all;
+}
+.upl{
+    font-family: 'Poppins';
+    font-size: 2em;
+    color: rgb(255, 255, 255);
+    user-select: none; 
+   margin-top: 10px;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background : url("op1.webp") no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+* {
+    font-family: 'Poppins',Poppins;
+}
+.main{
+    position: absolute;
+    top: 30%;
+    left: 35%;
+    width: 460px;
+    height: 150px;
+    border: 2px solid black;
+    margin-top: 200px;
+    backdrop-filter: blur(20px);
+    color: whitesmoke;
+    border-radius: 12px;
+    padding-top: 50px;
+}
+#file{
+    width: 84%;
+    height: 55px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+#file:hover,input[type=button]:hover , #Color:hover{
+    cursor:pointer;
+    background-color:blue;
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 40px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index:99;
+    color: white;
+}
+a:link{
+    text-decoration: none;
+}
+a:visited{
+    color: white;
+}
+.logo{
+    font-family: 'Poppins';
+    font-size: 2em;
+    color: rgb(255, 255, 255);
+    user-select: none;   
+}

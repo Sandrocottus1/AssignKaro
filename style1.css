@@ -1,0 +1,78 @@
+
+
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Poppins',Poppins;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:link{
+    color: red;
+}
+a:hover{
+    color: rgb(68, 255, 0);
+    background-color: white;
+}
+a:visited{
+    color: red;
+}
+a:active{
+    color: yellow
+}
+
+.doneassign{
+    font-size: 1.56em;
+    color: white;
+    text-align: left;
+    margin-right: 55px;
+    justify-content: space-between;
+    padding: 30px;
+    transition: transform .5s  ease;
+    transform: translate(400px);
+    background-color: orange;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+.doassign{
+    font-size: 1.56em;
+    color: white;
+    text-align: right;
+    margin-right: 5px;
+    justify-content: space-between;
+    padding: 30px;
+    background-color: blue;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background : url('op1.webp') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.offer{
+    font-family: 'Poppins';
+    font-size: 2em;
+    color: rgb(255, 255, 255);
+    user-select: none;
+    padding: 268px;
+    padding-top: 40px;
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 340px 250px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index:99;
+}
